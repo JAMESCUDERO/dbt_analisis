@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: dim_carmake
+    description: "Dimensión de marca de vehiculos. contiene una clave unica para cada marca"
+    columns:
+      - name: ID_CARMAKE
+        description: "Clave subrogada unica para cada marca de vehiculo"
+        tests: 
+          - unique
+          - not_null
+      - name: CARMAKE
+        description: "Nombre de la marca del vehículo"
+        tests:
+          - not_null
+   
+      
