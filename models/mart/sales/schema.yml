@@ -13,5 +13,9 @@ models:
         description: "Nombre de la marca del vehículo"
         tests:
           - not_null
-   
+          - accepted_values:
+              arguments:
+                values: ['Toyota', 'Nissan','Honda','Ford','Chevrolet','BMW','Mercedez-Benz','Audi','Volkswagen']
+              config:
+                severity: warn
       
