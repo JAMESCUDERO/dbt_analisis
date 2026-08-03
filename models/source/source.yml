@@ -27,6 +27,14 @@ sources:
           description: "Porcentaje de comision del vendedor"
         - name: COMMISSIONEARNED
           description: "Valor de la comisiòn de vendedor"
+    - name: MARKETING_PIVOTED_PERFORMANCE
+      description: "tabla de mareketing"
+  - name: raw_bi_car2
+    database: DATABOOSTERS
+    schema: PUBLIC
+    tables:
+    - name: SALESPERSON
+      description: "tabla de vendedores"
 
       
         
